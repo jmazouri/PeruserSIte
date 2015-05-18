@@ -40,14 +40,12 @@ main
 #cube:hover .heroimage
 {
     position: relative;
-    margin-left:-50%;
-    -webkit-transform: rotateY(0deg);
+    -webkit-transform: rotateY(15deg);
 }
 
 #cube:hover .heroimage img
 {
     -webkit-transition: all 1s ease;
-    width:100%;
 }
 
 .divider
