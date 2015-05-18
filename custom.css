@@ -1,0 +1,68 @@
+*
+{
+    position: relative;
+    z-index: -5;
+}
+
+body
+{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main
+{
+    flex: 1 0 auto;
+}
+
+.heroimage
+{
+    -webkit-transition: all 1s ease;
+    -webkit-transform: rotateY(-15deg);
+}
+
+.heroimage img
+{
+    -webkit-transition: all 1s ease;
+    z-index: 5;
+    width:100%;
+}
+
+#cube {
+  position: relative;
+  -webkit-transform-style: preserve-3d;
+    
+  -webkit-perspective: 1200px;
+  -webkit-perspective-origin: 50% 50px;
+}
+
+#cube:hover .heroimage
+{
+    position: relative;
+    margin-left:-50%;
+    -webkit-transform: rotateY(0deg);
+}
+
+#cube:hover .heroimage img
+{
+    -webkit-transition: all 1s ease;
+    width:100%;
+}
+
+.divider
+{
+    padding:20px;
+    background-color:transparent;
+}
+
+.basicimg img
+{
+    width:100%;
+}
+
+.githubtext
+{
+    position: relative;
+    top:-2px;
+}
